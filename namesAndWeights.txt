@@ -1,0 +1,1 @@
+bob 90 viggo 70 nick 60
