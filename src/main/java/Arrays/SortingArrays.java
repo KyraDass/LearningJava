@@ -9,14 +9,24 @@ package Arrays;
  * @author kyrad
  */
 public class SortingArrays {
+
     public static void main(String[] args) {
-        
-        int array[] = {1,2,3,4,5,};
-        
+
+        int array[] = {1, 2, 3, 4, 5,};
+
         for (int i = 0; i < array.length; i++) {
-            
-            
-            
+
+            int lowestIndex = i;
+
+            for (int j = 0; j < array.length; j++) {
+
+                if (array[j] < array[lowestIndex]) {
+
+                    lowestIndex = j;
+                }
+
+            }
+
         }
     }
 }
