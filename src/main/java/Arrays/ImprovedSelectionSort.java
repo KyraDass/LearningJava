@@ -8,11 +8,12 @@ package Arrays;
  *
  * @author kyrad
  */
-public class SortingArrays {
-
+public class ImprovedSelectionSort {
+    //one swap per outer loop
+    
     public static void main(String[] args) {
-
-        int array[] = {1, 2, 3, 4, 5,};
+        
+           int array[] = {1, 2, 3, 4, 5,};
 
         for (int i = 0; i < array.length; i++) {
 
@@ -35,4 +36,5 @@ public class SortingArrays {
         }
 
     }
+    
 }
